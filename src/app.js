@@ -5,7 +5,7 @@ const express = require('express');
 
 const app = express();
 
-const { accounts, users, writeJSON } = require('/data');
+const { accounts, users, writeJSON } = require('./data');
 
 //configure directory to where our views can be found
 app.set('views', path.join(__dirname, 'views'));
